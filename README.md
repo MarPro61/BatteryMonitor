@@ -53,7 +53,7 @@ uint16_t adc_single_conversion( ADC_TypeDef* ADCx ) {
   ADCx->ISR |=  ( ADC_ISR_EOS );
   // Return the ADC value.
   return adc_val;
-  // adc_val between 0 and 4095 for oV and supply voltage respectively 
+  // adc_val between 0 and 4095 for 0V and supply voltage respectively 
 }
 
 
